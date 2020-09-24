@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AdmonUserDAL\AdmonUserDAL.csproj" />
+    <ProjectReference Include="..\AdmonUserEntities\AdmonUserEntities.csproj" />
+  </ItemGroup>
+
+</Project>
